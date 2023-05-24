@@ -29,6 +29,7 @@ body {
     font-weight: 300;
     background-color: var(--veryDarkBlue);
     color: white;
+    margin: 0;
 }
 
 p {
@@ -48,9 +49,9 @@ p {
 
 .time-tracker-grid {
     display: grid;
-    gap: 1.5rem;
-    padding-block: 2rem;
-    width: min(95%, 70rem);
+    gap: 1.75rem;
+    padding-block: 5rem;
+    width: min(90%, 70rem);
     margin-inline: auto;    
 }
 
@@ -59,7 +60,7 @@ p {
     border-radius: 1rem;
     /* border: 1px solid white; */
     background-repeat: no-repeat;
-    background-position: top -0.5rem right 5%;
+    background-position: top -0.75rem right 1rem;
 }
 
 .grid-item--profile {
@@ -104,15 +105,15 @@ p {
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    padding: 1.75rem;
+    padding: 2rem;
     gap: 1rem;
     background-color: var(--blue);
     border-radius: 1rem;
 }
 
 .grid-item__avatar {
-    height: 60px;
-    width: 60px;
+    height: 4rem;
+    width: 4rem;
     border-radius: 50%;
     border: 3px solid white;
 }
@@ -131,6 +132,7 @@ p {
 }
 
 .grid-item__user-name {
+    margin-top: 0.25rem;
     font-size: 22px;
 }
 
@@ -143,11 +145,53 @@ p {
 }
 
 .grid-item__tracker-wrapper {
-    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.25rem;
     background-color: var(--darkBlue);
     border-radius: 1rem;
-    padding: 1.5rem;
+    padding: 1.75rem;
     margin-bottom: -0.2rem;
+}
+
+.tracker {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tracker__column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.tracker__column-1 {
+}
+.tracker__column-2 {
+    justify-content: space-around;
+    align-items: self-end;
+}
+
+.tracker__title {
+    font-weight: 400;
+}
+
+.tracker__time {
+    margin-top: 0.25rem;
+    font-size: 2rem;
+}
+
+.tracker__ellipsis {
+    width: 1.25rem;
+    /* margin-top: 1rem; */
+}
+
+.tracker__previous {
+    font-size: 14px;
+    color: var(--paleBlue);
 }
 
 /* FOOTER */
