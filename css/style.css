@@ -49,7 +49,7 @@ p {
 
 .time-tracker-grid {
     display: grid;
-    gap: 1.75rem;
+    gap: 1.5em;
     padding-block: 5rem;
     width: min(90%, 70rem);
     margin-inline: auto;    
@@ -74,18 +74,22 @@ p {
 .grid-item--play {
     background-color: var(--softBlue);
     background-image: url(/images/icon-play.svg);
+    background-position: top -0.4rem right 1rem;;
 }
 .grid-item--study {
     background-color: var(--lightRed);
     background-image: url(/images/icon-study.svg);
+    background-position: top -0.4rem right 1rem;;
 }
 .grid-item--exercise {
     background-color: var(--limeGreen);
     background-image: url(/images/icon-exercise.svg);
+    background-position: top -0.1rem right 1rem;;
 }
 .grid-item--social {
     background-color: var(--violet);
     background-image: url(/images/icon-social.svg);
+    background-position: top -1rem right 1rem;;
 }
 .grid-item--self-care {
     background-color: var(--softYellow);
