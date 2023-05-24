@@ -33,7 +33,7 @@ body {
 }
 
 p {
-    margin: 0;
+    margin: 0.2rem 0;
 }
 
 .main {
@@ -49,7 +49,7 @@ p {
 
 .time-tracker-grid {
     display: grid;
-    gap: 1.5em;
+    gap: 1.5rem;
     padding-block: 5rem;
     width: min(90%, 70rem);
     margin-inline: auto;    
@@ -60,7 +60,7 @@ p {
     border-radius: 1rem;
     /* border: 1px solid white; */
     background-repeat: no-repeat;
-    background-position: top -0.75rem right 1rem;
+    background-position: top -0.75rem right 1em;
 }
 
 .grid-item--profile {
@@ -74,22 +74,22 @@ p {
 .grid-item--play {
     background-color: var(--softBlue);
     background-image: url(/images/icon-play.svg);
-    background-position: top -0.4rem right 1rem;;
+    background-position: top -0.4rem right 1em;
 }
 .grid-item--study {
     background-color: var(--lightRed);
     background-image: url(/images/icon-study.svg);
-    background-position: top -0.4rem right 1rem;;
+    background-position: top -0.4rem right 1em;
 }
 .grid-item--exercise {
     background-color: var(--limeGreen);
     background-image: url(/images/icon-exercise.svg);
-    background-position: top -0.1rem right 1rem;;
+    background-position: top -0.1rem right 1em;
 }
 .grid-item--social {
     background-color: var(--violet);
     background-image: url(/images/icon-social.svg);
-    background-position: top -1rem right 1rem;;
+    background-position: top -1rem right 1em;
 }
 .grid-item--self-care {
     background-color: var(--softYellow);
@@ -145,7 +145,7 @@ p {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 1.5rem 1.75rem;
+    padding: 1.25em 1.75em;
 }
 
 .grid-item__tracker-wrapper {
