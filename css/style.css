@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+
+:root {
+
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+/* p {
+    margin: 0;
+} */
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* min-width: 375px; */
+    width: 100%;
+    min-height: 900px;
+    box-sizing: border-box;
+}
+
+
+/* FOOTER */
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
