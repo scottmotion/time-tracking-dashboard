@@ -26,3 +26,6 @@ design/
 
 # ignore old file versions
 old/
+
+#
+js/data.js
