@@ -41,7 +41,7 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* min-width: 375px; */
+    min-width: 375px;
     width: 100%;
     min-height: 900px;
     box-sizing: border-box;
@@ -214,6 +214,37 @@ p {
 
 
 /* MEDIA QUERIES */
+@media (min-width: 40em) {
+    .time-tracker-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+    .grid-item--profile {
+        grid-column-start: 1;
+        grid-row: 1 / span 2;
+    }
+    .grid-item__user-wrapper {
+        flex-direction: column;
+        align-items: start;
+        height: 100%
+    }
+
+    .grid-item__user {
+        /* padding-top: 1rem;
+        margin-bottom: 2rem; */
+    }
+
+    .grid-item__avatar {
+        height: 5rem;
+        width: 5rem;
+    }
+    .grid-item__user-name {
+        font-size: 2rem;
+    }
+
+
+}
+
 
 @media (min-width: 60em) {
     .time-tracker-grid {
