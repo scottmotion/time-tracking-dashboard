@@ -18,7 +18,7 @@
     
     --veryDarkBlue: hsl(226, 43%, 10%);
     --darkBlue: hsl(235, 46%, 20%);
-    --desaturatedBlue: hsl(235, 45%, 61%);
+    --desaturatedBlue: hsl(235, 35%, 38%);
     --paleBlue: hsl(236, 100%, 87%);
     
 }
@@ -153,6 +153,17 @@ p {
     padding: 1.25em 1.75em;
 }
 
+.grid-item__button {
+    cursor: pointer;
+    opacity: 50%;
+}
+.grid-item__button:hover {
+    opacity: 100%;
+}
+.grid-item__button--active {
+    opacity: 100%;
+}
+
 .grid-item__tracker-wrapper {
     display: flex;
     flex-direction: column;
@@ -161,6 +172,16 @@ p {
     border-radius: 1rem;
     padding: 1.75rem;
     margin-bottom: -0.2rem;
+}
+
+.grid-item__tracker-wrapper:hover {
+    background-color: var(--desaturatedBlue);
+}
+.grid-item__tracker-wrapper:hover {
+    background-color: var(--desaturatedBlue);
+}
+.grid-item__tracker-wrapper:has(.tracker__ellipsis:hover) {
+    background-color: var(--darkBlue);
 }
 
 .tracker {
@@ -193,8 +214,15 @@ p {
 
 .tracker__ellipsis {
     width: 1.25rem;
-    margin-top: 1rem
+    margin-top: 0.25rem;
+    opacity: 50%;
+    /* border-radius: 50%; */
+    /* background-color: black; */
 }
+.tracker__ellipsis:hover {
+    opacity: 100%;
+}
+
 
 .tracker__previous {
     font-size: 14px;
@@ -227,11 +255,6 @@ p {
         flex-direction: column;
         align-items: start;
         height: 100%
-    }
-
-    .grid-item__user {
-        /* padding-top: 1rem;
-        margin-bottom: 2rem; */
     }
 
     .grid-item__avatar {
