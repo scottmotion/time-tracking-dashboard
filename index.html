@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
@@ -14,7 +14,7 @@
 <body>
 
   <main class="main">
-    <section class="time-tracker-grid">
+    <section class="time-tracker-grid"> <!-- Use id to append grid items? -->
 
       <article class="grid-item grid-item--profile">
         <div class="grid-item__item-wrapper grid-item__item-wrapper--profile">
@@ -26,14 +26,14 @@
             </div>
           </div>
           <div class="grid-item__button-wrapper">
-            <p class="grid-item__button grid-item__button--active">Daily</p>
-            <p class="grid-item__button">Weekly</p>
-            <p class="grid-item__button">Monthly</p>
+            <p class="grid-item__button" id="btnDaily" data-title="daily">Daily</p> <!--Use data attribute to switch-->
+            <p class="grid-item__button" id="btnWeekly" data-title="weekly">Weekly</p>
+            <p class="grid-item__button" id="btnMonthly" data-title="monthly">Monthly</p>
           </div>
         </div>
       </article>
 
-      <article class="grid-item grid-item--work">
+      <article class="grid-item grid-item--work"> <!-- Use id to populate? -->
         <div class="grid-item__item-wrapper">
           <div class="grid-item__tracker-wrapper">
             <div class="tracker">
@@ -153,6 +153,8 @@
 
   <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
   <script src="/js/script.js"></script>
+  <!-- <script src="/js/data.js"></script> -->
+
 
 </body>
 </html>
