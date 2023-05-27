@@ -30,6 +30,7 @@ async function getJson(url) {
 async function main() {
     trackerData = await getJson(apiUrl);
     // console.log("Tracker Data: ", trackerData);
+    setTimeframe("daily");
     document.getElementById("btnDaily").classList.add("grid-item__button--active");
 }
 

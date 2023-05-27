@@ -186,21 +186,16 @@ p {
 
 .tracker {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.tracker__column {
-    display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 100%;
+    /* align-items: center; */
 }
 
-.tracker__column-2 {
-    justify-content: flex-start;
-    align-items: self-end;
+.tracker__row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* height: 100%; */
 }
 
 .tracker__title {
@@ -309,16 +304,22 @@ p {
         margin: 0.6rem 0;
     }
 
+    .tracker__row-2 {
+        flex-direction: column;
+    }
+    
     .tracker__time {
         margin-top: 1rem;
         font-size: 3.5rem;
     }
     
-    .tracker__previous {
+
+
+    /* .tracker__previous {
         display: none;
     }
     .tracker__previous--desktop {
         display: initial;
-    }
+    } */
     
 }
