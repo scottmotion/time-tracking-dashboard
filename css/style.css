@@ -33,7 +33,7 @@ body {
 }
 
 p {
-    margin: 0.2rem 0;
+    margin: 0.25rem 0;
 }
 
 .main {
@@ -43,7 +43,7 @@ p {
     align-items: center;
     min-width: 375px;
     width: 100%;
-    min-height: 900px;
+    min-height: 1020px;
     box-sizing: border-box;
 }
 
@@ -222,7 +222,7 @@ p {
 .tracker__previous {
     font-size: 14px;
     color: var(--paleBlue);
-    margin-top: 1.5rem;
+    /* margin-top: 1.5rem; */
 }
 
 .tracker__previous--desktop {
@@ -282,7 +282,7 @@ p {
 
     .grid-item__user {
         padding-top: 1.5rem;
-        margin-bottom: 3rem;
+        margin-bottom: 2rem;
     }
 
     .grid-item__avatar {
@@ -309,7 +309,7 @@ p {
     }
     
     .tracker__time {
-        margin-top: 1rem;
+        margin-top: 1.25rem;
         font-size: 3.5rem;
     }
     
