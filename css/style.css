@@ -44,6 +44,7 @@ p {
     min-width: 375px;
     width: 100%;
     min-height: 1020px;
+    height: 100vh;
     box-sizing: border-box;
 }
 
