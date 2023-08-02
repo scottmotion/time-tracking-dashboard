@@ -70,31 +70,31 @@ p {
 
 .grid-item--work {
     background-color: var(--lightOrange);
-    background-image: url(/images/icon-work.svg);
+    background-image: url(https://scottmotion.github.io/time-tracking-dashboard/images/icon-work.svg);
 }
 .grid-item--play {
     background-color: var(--softBlue);
-    background-image: url(/images/icon-play.svg);
+    background-image: url(https://scottmotion.github.io/time-tracking-dashboard/images/icon-play.svg);
     background-position: top -0.4rem right 1em;
 }
 .grid-item--study {
     background-color: var(--lightRed);
-    background-image: url(/images/icon-study.svg);
+    background-image: url(https://scottmotion.github.io/time-tracking-dashboard/images/icon-study.svg);
     background-position: top -0.4rem right 1em;
 }
 .grid-item--exercise {
     background-color: var(--limeGreen);
-    background-image: url(/images/icon-exercise.svg);
+    background-image: url(https://scottmotion.github.io/time-tracking-dashboard/images/icon-exercise.svg);
     background-position: top -0.1rem right 1em;
 }
 .grid-item--social {
     background-color: var(--violet);
-    background-image: url(/images/icon-social.svg);
+    background-image: url(https://scottmotion.github.io/time-tracking-dashboard/images/icon-social.svg);
     background-position: top -1rem right 1em;
 }
 .grid-item--self-care {
     background-color: var(--softYellow);
-    background-image: url(/images/icon-self-care.svg);
+    background-image: url(https://scottmotion.github.io/time-tracking-dashboard/images/icon-self-care.svg);
 }
 
 .grid-item__item-wrapper {
